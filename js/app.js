@@ -43,8 +43,7 @@ let wedo = document.querySelector('.wedo');
 //Проверка после загрузки страницы
 document.addEventListener("DOMContentLoaded", function () {
 	checkScroll();
-}); // ИЛИ 
-//просто checkScroll();
+});
 
 //проверка при скроле страницы
 window.onscroll = function () {
@@ -54,19 +53,8 @@ window.onscroll = function () {
 //Активция
 function checkScroll() {
 	let scrollPos = window.scrollY + 1;
-	//let scrollPos1 = window.pageYOffset;
 	let wedoScrollPos = wedo.offsetTop;
-	//let wedoScrollPos1 = wedo.scrollTop;
-	console.log(scrollPos);
-	//console.log(scrollPos1);
-	console.log(wedoScrollPos);
-	/* console.log(wedoScrollPos1);
-	console.log(wedo.clientTop);
-	console.log(intro.offsetHeight);
-	console.log(intro.scrollHeight);
-	console.log(intro.clientHeight); */
-
-
+		
 	if (scrollPos >= wedoScrollPos) {
 		header.classList.add('fixed');
 	} else {
