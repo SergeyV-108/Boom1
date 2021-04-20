@@ -8,6 +8,7 @@
 		url("../fonts/Raleway/Raleway-Light.woff") format("woff"), url("../fonts/Raleway/Raleway-Light.ttf") format("truetype");
 	font-weight: 300;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -17,6 +18,7 @@
 		url("../fonts/Raleway/Raleway-Medium.woff") format("woff"), url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -27,6 +29,7 @@
 		url("../fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype");
 	font-weight: 800;
 	font-style: normal;
+	font-display: swap;
 }
 
 /* font-family: 'Bebas Neue', cursive; */
@@ -39,6 +42,7 @@
 		url("../fonts/BebasNeue/BebasNeueLight.ttf") format("truetype");
 	font-weight: 300;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -49,6 +53,7 @@
 		url("../fonts/BebasNeue/BebasNeueRegular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -58,6 +63,7 @@
 		url("../fonts/BebasNeue/BebasNeueBook.woff") format("woff"), url("../fonts/BebasNeue/BebasNeueBook.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -67,6 +73,7 @@
 		url("../fonts/BebasNeue/BebasNeueBold.woff") format("woff"), url("../fonts/BebasNeue/BebasNeueBold.ttf") format("truetype");
 	font-weight: bold;
 	font-style: normal;
+	font-display: swap;
 }
 
 /* ======== обнуление ======== */
