@@ -1,11 +1,75 @@
-﻿/* Шрифты
+/* ======== Шрифты ======== */
+/* font-family: 'Raleway', sans-serif; */
 
-	font-family: 'Bebas Neue', cursive;
-	font-family: 'Raleway', sans-serif;
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway/Raleway-Light.eot");
+	src: local("Raleway Light"), local("Raleway-Light"), url("../fonts/Raleway/Raleway-Light.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Raleway/Raleway-Light.woff") format("woff"), url("../fonts/Raleway/Raleway-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
 
-*/
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway/Raleway-Medium.eot");
+	src: local("Raleway Medium"), local("Raleway-Medium"), url("../fonts/Raleway/Raleway-Medium.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Raleway/Raleway-Medium.woff") format("woff"), url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
 
-/* обнуление */
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway/Raleway-ExtraBold.eot");
+	src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"),
+		url("../fonts/Raleway/Raleway-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-ExtraBold.woff") format("woff"),
+		url("../fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}
+
+/* font-family: 'Bebas Neue', cursive; */
+
+@font-face {
+	font-family: "Bebas Neue";
+	src: url("../fonts/BebasNeue/BebasNeueLight.eot");
+	src: local("Bebas Neue Light"), local("BebasNeueLight"),
+		url("../fonts/BebasNeue/BebasNeueLight.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeue/BebasNeueLight.woff") format("woff"),
+		url("../fonts/BebasNeue/BebasNeueLight.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Bebas Neue";
+	src: url("../fonts/BebasNeue/BebasNeueRegular.eot");
+	src: local("Bebas Neue Regular"), local("BebasNeueRegular"),
+		url("../fonts/BebasNeue/BebasNeueRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeue/BebasNeueRegular.woff") format("woff"),
+		url("../fonts/BebasNeue/BebasNeueRegular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Bebas Neue Book";
+	src: url("../fonts/BebasNeue/BebasNeueBook.eot");
+	src: local("Bebas Neue Book"), local("BebasNeueBook"), url("../fonts/BebasNeue/BebasNeueBook.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/BebasNeue/BebasNeueBook.woff") format("woff"), url("../fonts/BebasNeue/BebasNeueBook.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Bebas Neue";
+	src: url("../fonts/BebasNeue/BebasNeueBold.eot");
+	src: local("Bebas Neue Bold"), local("BebasNeueBold"), url("../fonts/BebasNeue/BebasNeueBold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/BebasNeue/BebasNeueBold.woff") format("woff"), url("../fonts/BebasNeue/BebasNeueBold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* ======== обнуление ======== */
 
 * {
 	margin: 0;
